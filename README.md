@@ -1,4 +1,5 @@
 # openebs-singlenode
+```text
 pvcreate /dev/sdX
 vgcreate lvmvg /dev/sdX
 
@@ -8,4 +9,4 @@ kubectl apply -f lvm-operator.yaml
 kubectl apply -f sc.yaml
 kubectl apply -f pvc.yaml
 kubectl apply -f fio.yaml
-
+```
